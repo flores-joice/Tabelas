@@ -1,0 +1,59 @@
+table {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+table, tr, td, th, thead {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.semnada {
+    border-left: none;
+}
+
+
+td, th {
+    text-align: center;
+    border-right: 1px solid rgba(170, 166, 166, 0.205);
+    border-left: 1px solid rgba(170, 166, 166, 0.205);
+    width: 150px;
+    color: rgb(107, 107, 107)
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.linha__primary {
+    padding: 0 30px;
+    background-color: rgb(9, 89, 194);
+    color: white;
+    
+}
+
+.linha__second {
+    padding: 0 50px;
+    background-color: rgb(7, 160, 45);
+    color: white;
+    
+}
+
+.botao {
+    background-color: red;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(219, 217, 217, 0.473);
+}
+
+table {
+    border-radius: 25px;
+}
+
