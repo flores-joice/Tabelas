@@ -7,15 +7,15 @@ table {
     margin: auto;
     font-family: sans-serif;
     box-shadow: 3px 5px 5px rgba(160, 158, 158, 0.438);
+    margin-top: 40px;
 }
 
 table, tr, td, th, thead {
     padding: 10px;
-    margin-top: 40px;
     font-weight: lighter;
 }
 
-.semnada {
+.sem-nada {
     border-left: none;
 }
 
@@ -25,6 +25,7 @@ td, th {
     border-right: 1px solid rgba(170, 166, 166, 0.205);
     border-left: 1px solid rgba(170, 166, 166, 0.205);
     color: rgb(107, 107, 107);
+    width: 200px;
     
 }
 
@@ -33,14 +34,14 @@ table {
     border-collapse: collapse;
 }
 
-.linha__primary {
-    padding: 0 30px;
+.linha-primary {
+    padding: 0 20px;
     background-color: rgb(9, 89, 194);
     color: white;
     
 }
 
-.linha__second {
+.linha-second {
     padding: 0 50px;
     background-color: rgb(7, 160, 45);
     color: white;
@@ -56,19 +57,36 @@ table {
     text-decoration: none;
     color: white;
     margin-bottom: 15px;
-    box-shadow: 3px 5px 5px rgba(160, 158, 158, 0.678);
+
 }
- /* intercala o background das linhas, odd pega a partir da primeira */
+
+.botao:hover {
+    box-shadow: 3px 5px 5px rgba(160, 158, 158, 0.678);
+    transform: translate()
+}
+
+ /* intercala o background das linhas, odd pega a partir 
+ da primeira - odd=impar e even=par */
 tbody tr:nth-child(odd) {
     background-color: rgba(219, 217, 217, 0.473);
 }
 
-.tbody__linha1 {
+.tbody-linha-1 {
     border-top: 1px solid rgba(170, 166, 166, 0.205);
 
 }
 
 h5 {
+    font-weight: bold;
+}
+
+.check-azul {
+    color: rgb(9, 89, 194);
+    font-weight: bold;
+}
+
+.check-verde {
+    color: rgb(7, 160, 45);
     font-weight: bold;
 }
 
