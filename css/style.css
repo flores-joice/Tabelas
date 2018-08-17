@@ -1,6 +1,12 @@
+* {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
 table {
     margin: auto;
     font-family: sans-serif;
+    box-shadow: 3px 5px 5px rgba(160, 158, 158, 0.438);
 }
 
 table, tr, td, th, thead {
@@ -22,6 +28,7 @@ td, th {
     
 }
 
+/* desfaz a duplicação de borda */
 table {
     border-collapse: collapse;
 }
@@ -48,19 +55,20 @@ table {
     border-radius: 10px;
     text-decoration: none;
     color: white;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    box-shadow: 3px 5px 5px rgba(160, 158, 158, 0.678);
 }
-
+ /* intercala o background das linhas, odd pega a partir da primeira */
 tbody tr:nth-child(odd) {
     background-color: rgba(219, 217, 217, 0.473);
-}
-
-table {
-    border-radius: 25px;
 }
 
 .tbody__linha1 {
     border-top: 1px solid rgba(170, 166, 166, 0.205);
 
+}
+
+h5 {
+    font-weight: bold;
 }
 
