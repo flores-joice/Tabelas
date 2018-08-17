@@ -6,6 +6,7 @@ table {
 table, tr, td, th, thead {
     padding: 10px;
     margin-top: 40px;
+    font-weight: lighter;
 }
 
 .semnada {
@@ -17,8 +18,8 @@ td, th {
     text-align: center;
     border-right: 1px solid rgba(170, 166, 166, 0.205);
     border-left: 1px solid rgba(170, 166, 166, 0.205);
-    width: 150px;
-    color: rgb(107, 107, 107)
+    color: rgb(107, 107, 107);
+    
 }
 
 table {
@@ -47,6 +48,7 @@ table {
     border-radius: 10px;
     text-decoration: none;
     color: white;
+    margin-bottom: 15px
 }
 
 tbody tr:nth-child(odd) {
@@ -55,5 +57,10 @@ tbody tr:nth-child(odd) {
 
 table {
     border-radius: 25px;
+}
+
+.tbody__linha1 {
+    border-top: 1px solid rgba(170, 166, 166, 0.205);
+
 }
 
